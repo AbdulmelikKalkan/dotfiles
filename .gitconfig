@@ -3,6 +3,7 @@
   name = abdulmelikkalkan
 [core]
   editor = vim
+  excludesfile = /Users/$USER/.gitignore_global
 [diff]
 	colorMoved = default
 [init]
