@@ -1,0 +1,9 @@
+[user]
+  email = kalkanabdulmelik@gmail.com
+  name = abdulmelikkalkan
+[core]
+  editor = vim
+[diff]
+	colorMoved = default
+[init]
+	defaultBranch = main
