@@ -15,6 +15,8 @@ set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 " alternatively, pass a path where Vundle should install plugins
 "call vundle#begin('~/some/path/here')
+" let Vundle manage Vundle, required
+Plugin 'VundleVim/Vundle.vim'
 
 " Brief help
 " :PluginList       - lists configured plugins
@@ -27,7 +29,8 @@ call vundle#begin()
 
 " Plugin on Githup Repo
 Plugin 'scrooloose/nerdtree'
-
+call vundle#end()            " required
+filetype plugin indent on    " required
 
 " tabstop:          Width of tab character
 " softtabstop:      Fine tunes the amount of white space to be added
