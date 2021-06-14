@@ -20,3 +20,6 @@ Install oh-my-zsh: https://github.com/robbyrussell/oh-my-zsh
   - Run '> Sync: Update/Upload Settings'
   - Create a token with 'gist' permissions and save it to the prompt
   - Wait for the Sync Summary.
+
+- Vim Plugins
+  - Launch vim and run '> :PluginInstall'
