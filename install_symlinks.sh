@@ -21,4 +21,5 @@ for f in zsh_aliases.inc \
 done
 
 # install vundle for vim plugins
+if [ -d "~/.vim/bundle/vundle" ]; then rm "~/.vim/bundle/vundle"; fi
 git clone https://github.com/gmarik/vundle.git ~/.vim/bundle/vundle
