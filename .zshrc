@@ -97,8 +97,8 @@ else
 fi
 
 # Load custom aliases
-if [[ -f "$HOME/workspace/dotfiles/zsh_aliases.inc" ]]; then
-	source "$HOME/workspace/dotfiles/zsh_aliases.inc"
+if [[ -f "$ZSH/zsh_aliases.inc" ]]; then
+	source "$ZSH/zsh_aliases.inc"
 else
 	echo >&2 "WARNING: can't load shell aliases"
 fi
