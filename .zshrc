@@ -71,8 +71,7 @@ ZSH_THEME="robbyrussell"
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git docker vagrant colored-man-pages)
-
+plugins=(git docker vagrant colored-man-pages zsh-syntax-highlighting kubectl)
 source $ZSH/oh-my-zsh.sh
 
 # User configuration
@@ -134,4 +133,6 @@ export EDITOR=vim
 #
 ## finally, export the PATH
 #export PATH
+export GOPATH=$(go env GOPATH)
 export PATH="/opt/homebrew/opt/openjdk/bin:$PATH"
+export PATH=$PATH:$(go env GOPATH)/bin
