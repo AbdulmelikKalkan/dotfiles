@@ -74,6 +74,9 @@ ZSH_THEME="robbyrussell"
 plugins=(git docker vagrant colored-man-pages zsh-syntax-highlighting)
 source $ZSH/oh-my-zsh.sh
 
+# Add kubectl aliases
+[ -f ~/.kubectl_aliases ] && source ~/.kubectl_aliases
+
 # User configuration
 
 # export MANPATH="/usr/local/man:$MANPATH"
