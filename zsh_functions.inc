@@ -22,3 +22,6 @@ sshquasyskube(){
 sshquasysconjur(){
     ssh quasys@ec2-44-196-149-150.compute-1.amazonaws.com
 }
+sshportal(){
+  ssh -i /Users/abdulmelikkalkan/Developer/Quasys/AWS/portal.pem ec2-user@ec2-54-158-10-1.compute-1.amazonaws.com
+}

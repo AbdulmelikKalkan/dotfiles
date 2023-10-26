@@ -117,7 +117,6 @@ export EDITOR=vim
 #MANPATH="$HOMEBREW/opt/coreutils/libexec/gnuman:$MANPATH"
 #PATH="$HOMEBREW/opt/coreutils/libexec/gnubin:$PATH"
 
-
 # kubectl aliases from https://github.com/ahmetb/kubectl-alias
 #    > use sed to hijack --watch to watch $@.
 #[ -f ~/.kubectl_aliases ] && source <(cat ~/.kubectl_aliases | sed -r 's/(kubectl.*) --watch/watch \1/g')
